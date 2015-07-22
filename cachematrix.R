@@ -38,8 +38,8 @@ makeCacheMatrix<- function (M=matrix()) {
 	}
 	
 	list(set=set, get=get,
-	setinverse=setinverse,
-	getinverse=getinverse)
+		setinverse=setinverse,
+		getinverse=getinverse)
 }
 
 
